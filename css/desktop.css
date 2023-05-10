@@ -1,0 +1,97 @@
+@media screen and (min-width:1439px) {
+
+    * {
+        user-select: none;
+    }
+
+    #container {
+        width: 780px;
+        padding:30px;
+        border-radius: 20px 20px 150px 20px;
+        display: block;
+        
+    }
+
+    #formulario {
+        display: flex;
+        justify-content: flex-start;        
+        gap: 30px;
+        padding: 20 10;
+        margin-left: 15px;
+        padding-bottom: 0;
+    }
+
+    #day-form label, #month-form label, #year-form label{  
+        font-family:'Poppins-Bold';
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 3.2px;
+        color: hsl(0, 1%, 44%);
+        padding: 3px 0px 3px 0px;
+    }
+
+    #formulario input {
+        font-size: 32px;
+        width: 125px;
+        height: 50px;
+        padding: 12px 20px;
+        opacity: 0.9;
+    }
+
+    #formulario input::placeholder {
+        font-size: 32px;
+    }
+
+    #arrow {
+        width: 100%;
+        display: flex;
+    }
+
+    #arrow .border {
+        width: 560px;
+    }
+
+    #outraBorda {
+        display: none;
+    }
+
+    #butao {
+        order: 3;
+    }
+
+    #arrow svg {
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+        border-radius: 100%;      
+    }
+
+    #resultado {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    
+    #year-result, #month-result, #days-result {
+        display: flex;
+        gap: 10px;
+        line-height: 110px;
+    }
+    
+    #month-script, #years-script, #days-script{
+        font-family: 'Poppins-ExtraBoldItalic';
+        font-size: 100px;
+        color: hsl(259, 100%, 65%);
+    }
+    
+    #span-month span, #span-days span, #span-years span {
+        display: block;
+        font-family: 'Poppins-ExtraBoldItalic';
+        font-size: 100px;
+        color:#0E0E0E;
+    }
+
+}
